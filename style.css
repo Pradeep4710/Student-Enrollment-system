@@ -1,0 +1,130 @@
+body {
+    width: auto;
+    height: 100vh;
+    background-image: linear-gradient(150deg, rgb(255, 114, 26), rgb(227, 226, 226), rgb(105, 233, 30));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.container {
+    width: 90%;
+    margin: 20px;
+}
+
+.container > h1 {
+    font-size: 45px;
+    color: rgb(0, 0, 197);
+    position:fixed;
+    left: 32%;
+    top: 20px;
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-section {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.input-container input {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 45px;
+    padding-left: 10px;
+    width: 100%;
+    color: black;
+}
+
+.button {
+    align-self: center;
+    font-size: 1.1rem;
+    height: 45px;
+    border-radius: 20px;
+    width: 40%;
+    margin-top: 40px;
+    background-color: rgb(95, 234, 244);
+}
+
+.button:hover {
+    background-color: aqua;
+}
+
+.table-section {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.search {
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgba(100, 180, 255, 0.6);
+    border: 1px solid black;
+    height: 45px;
+    padding-left: 10px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.table {
+    border: none;
+    width: 100%;
+    overflow-x: auto;
+}
+
+th, td {
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+}
+
+th {
+    height: 45px; 
+    padding: 10px;
+}
+
+td {
+    height: 35px; 
+    padding: 10px;
+}
+
+.degree {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    margin-left: 10px;
+    gap: 5px;
+}
+
+td.degree {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
